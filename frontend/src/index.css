@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +16,90 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+/* ABOUT US PAGE STYLES */
+.about-container {
+  padding: 60px 20px;
+}
+
+.about {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.about h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 18px;
+  max-width: 800px;
+  margin: 0 auto 20px;
+}
+
+/* CONTACT US PAGE STYLES */
+.contact-container {
+  padding: 60px 20px;
+}
+
+.contact {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.contact h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 18px;
+  max-width: 800px;
+  margin: 0 auto 30px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+/* CTA Button (used in Contact page and other pages) */
+.cta-button {
+  background-color: #ff6600;
+  color: #fff;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  display: inline-block;
+}
+
+.cta-button:hover {
+  background-color: #e55a00;
 }

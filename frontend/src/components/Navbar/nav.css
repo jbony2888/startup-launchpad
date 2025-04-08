@@ -1,0 +1,41 @@
+/* Navbar container styling */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  /* Logo styling */
+  .navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  /* Navigation links styling */
+  .navbar ul {
+    list-style: none;
+    display: flex;
+  }
+
+  .navbar ul li {
+    margin-left: 20px;
+  }
+
+  .navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 12px;
+    transition: background-color 0.3s;
+  }
+ /* Distinct styling for the Sign In/Login button */
+ .navbar ul li a.sign-in {
+background-color: #ff6600; /* Change to desired standout color */
+border-radius: 4px;
+font-weight: bold;
+}
+  .navbar ul li a:hover {
+    background-color: #555;
+  }
