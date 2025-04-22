@@ -39,3 +39,19 @@ font-weight: bold;
   .navbar ul li a:hover {
     background-color: #555;
   }
+
+  .logo {
+    /* existing styles… */
+    
+    color: #fff;            /* white text */
+    text-decoration: none;   /* remove underline */
+  }
+  
+  /* Make sure it stays that way on hover/visited/etc */
+  .logo:hover,
+  .logo:visited,
+  .logo:active,
+  .logo:focus {
+    color: #fff;
+    text-decoration: none;
+  }
