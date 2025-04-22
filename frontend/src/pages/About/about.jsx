@@ -15,9 +15,7 @@ const AboutUs = () => {
           We believe that with the right guidance, each visionary idea can thrive and make a significant impact.
         </p>
       </section>
-      <footer>
-        &copy; 2025 Startup Launchpad. All rights reserved.
-      </footer>
+    
     </div>
   );
 };

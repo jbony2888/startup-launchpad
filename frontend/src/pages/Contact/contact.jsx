@@ -60,9 +60,7 @@ const ContactUs = () => {
           <button type="submit" className="cta-button">Send Message</button>
         </form>
       </section>
-      <footer>
-        &copy; 2025 Startup Launchpad. All rights reserved.
-      </footer>
+    
     </div>
   );
 };

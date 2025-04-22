@@ -11,7 +11,7 @@ import './styles.css'
           Your subscription platform dedicated to teaching aspiring entrepreneurs how to start
           and grow a business. Learn from industry experts and build your startup journey today!
         </p>
-        <a href="#" className="cta-button">Get Started</a>
+        <a href="/#" className="cta-button">Get Started</a>
       </section>
       </div>
 
@@ -42,9 +42,7 @@ import './styles.css'
           </div>
         </div>
       </section>
-      <footer>
-        &copy; 2025 Startup Launchpad. All rights reserved.
-      </footer>
+      
   </>
   )
 }
